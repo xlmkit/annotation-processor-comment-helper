@@ -21,7 +21,7 @@ import javax.tools.Diagnostic.Kind;
 import javax.tools.FileObject;
 import javax.tools.StandardLocation;
 
-@SupportedAnnotationTypes("com.xlmkit.comment.helper.GenerateCommentFile")
+@SupportedAnnotationTypes("org.xlmkit.annotation.processor.comment.helper.GenerateCommentFile")
 public class AnnotationProcessor extends AbstractProcessor {
 	private ProcessingEnvironment env;
 

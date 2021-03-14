@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.xlmkit.annotation.processor</groupId>
+	<groupId>com.xlmkit.annotation.processor</groupId>
 	<artifactId>comment-helper</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<name>注释生成文件</name>
@@ -18,6 +18,16 @@
 			<version>2.2.0</version>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+		<repository>
+			<id>rdc-releases</id>
+			<url>https://repo.rdc.aliyun.com/repository/75474-release-07ylXF/</url>
+		</repository>
+		<snapshotRepository>
+			<id>rdc-snapshots</id>
+			<url>https://repo.rdc.aliyun.com/repository/75474-snapshot-dZjch5/</url>
+		</snapshotRepository>
+	</distributionManagement>
 	<build>
 		<sourceDirectory>src/main/java</sourceDirectory>
 		<resources>
